@@ -1,0 +1,59 @@
+.menu{
+	background-color: red;
+	height: 100px;
+	padding-top:30px;
+}
+
+.menus{
+margin: 20px;
+color:white;
+
+}
+
+
+.menuHds{
+	color:white;
+	text-align:center;
+}
+
+.HomeImg{
+	width: 400px;
+	height:200px;
+	position: relative;
+}
+
+.home{
+	margin:25px;
+	display: grid;
+	grid-template-columns:1fr 1fr 2fr;
+	grid-template-rows:1fr 1fr 2fr;
+	grid-gap: 4%;
+	position:relative;
+}
+.home1{
+position:relative;	
+}
+.home2{
+position:relative;	
+}
+.writing{
+position:absolute;
+margin:25px;
+display: grid;
+grid-template-columns:1fr 1fr 2fr;
+grid-template-rows:1fr 1fr 2fr;
+	grid-gap: 4%;
+}
+.writing1{
+position:absolute;
+margin:25px;
+	display: grid;
+	grid-template-columns:1fr 1fr 2fr;
+	grid-template-rows:1fr 1fr 2fr;
+	grid-gap: 4%;
+	z-index: 20;
+	margin-top: 10px;
+}
+.writing2{
+position:absolute;
+}
